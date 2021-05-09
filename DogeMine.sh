@@ -33,7 +33,7 @@ apt-get -y install make build-essential libcurl4-openssl-dev screen >> doge.log
 
 echo ""
 echo "Downloading cpuminer (minerd) source code..."
-wget --quiet http://sourceforge.net/projects/cpuminer/files/pooler-cpuminer-2.3.2.tar.gz >> doge.log
+wget --quiet http://sourceforge.net/projects/cpuminer/files/pooler-cpuminer-2.5.1-linux-x86_64.tar.gz >> doge.log
 
 echo "Extracting tar file..."
 tar xvzf pooler-cpuminer-*.tar.gz >> doge.log
